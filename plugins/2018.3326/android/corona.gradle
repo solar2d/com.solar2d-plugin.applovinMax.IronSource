@@ -4,5 +4,5 @@ repositories {
   maven { url "https://android-sdk.is.com" }
 }
 dependencies {
-	implementation 'com.applovin.mediation:ironsource-adapter:7.1.14.0.2'
+	implementation 'com.applovin.mediation:ironsource-adapter:7.2.4.1.0'
 }
