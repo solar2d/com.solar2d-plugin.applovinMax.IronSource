@@ -3,9 +3,10 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { "IronSourceAdapter", "IronSource" },
-		frameworks = {  },
+		staticLibs = { "IronSourceAdapter", "IronSource", "objc" },
+		frameworks = { },
 		frameworksOptional = {},
+		usesSwift=true,
 	},
 }
 
